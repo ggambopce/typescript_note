@@ -27,10 +27,8 @@ let null1 : null = null;
 // undefined
 let unde1 : undefined = undefined;
 
-// strictNullChecks 옵션
-let numA : number = null;
-
 // 리터럴 타입
+// 리터럴 -> 값
 let numB : 10 =10 ;
 let strB : "hello" = "hello";
 let boolB : true = true; 
