@@ -18,7 +18,7 @@ type Dog = {
 
 let dog = {
     name: "또또",
-    color: "brown",
+    color: "brown", 
     breed: "진도",
 } as Dog;
 
