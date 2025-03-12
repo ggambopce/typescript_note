@@ -9,16 +9,13 @@
 // protected는 파샐 클래스까지 허용
 class Employee {
     // 필드
-    public name: string;
-    protected age: number;
-    private position: string; 
 
     // 생성자
-    constructor(name:string, age: number, position: string){
-        this.name = name;
-        this.age = age;
-        this.position = position;
-    }
+    constructor(
+        public name:string,
+        protected age: number,
+        private position: string
+    ) {}
 
     // 메서드
     work() {
