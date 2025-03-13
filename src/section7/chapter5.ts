@@ -2,6 +2,7 @@
  * 제네릭 클래스
  */
 
+// 생성자의 인수로 타입을 추론
 class List<T> {
     constructor(private list: T[]) {}
 
