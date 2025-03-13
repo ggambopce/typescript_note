@@ -17,6 +17,6 @@ class Character implements CharacterInterface {
     ) {}
 
     move(): void {
-        console.log(`${this.moveSpeed} 속도로 이동`);
+        console.log(`${this.moveSpeed} 속도로 이동 깃모지 사용`);
     }
 }
