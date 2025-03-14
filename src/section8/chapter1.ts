@@ -53,7 +53,7 @@ const post1: PostList[number] = {
         id: 1,
         name: "강진호",
         age: 37
-    },    
+    },
 
 }
 
